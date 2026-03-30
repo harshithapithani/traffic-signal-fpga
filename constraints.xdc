@@ -1,0 +1,31 @@
+# CLOCK
+set_property PACKAGE_PIN N11 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+# SWITCHES
+set_property PACKAGE_PIN L5 [get_ports {sw[0]}]
+set_property PACKAGE_PIN L4 [get_ports {sw[1]}]
+set_property PACKAGE_PIN M4 [get_ports {sw[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {sw[*]}]
+# LEDs
+set_property PACKAGE_PIN J3 [get_ports {led[0]}]
+set_property PACKAGE_PIN H3 [get_ports {led[1]}]
+set_property PACKAGE_PIN J1 [get_ports {led[2]}]
+set_property PACKAGE_PIN K1 [get_ports {led[3]}]
+set_property PACKAGE_PIN L3 [get_ports {led[4]}]
+set_property PACKAGE_PIN L2 [get_ports {led[5]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {led[*]}]
+# 7-SEG
+set_property PACKAGE_PIN G2 [get_ports {seg[0]}]
+set_property PACKAGE_PIN G1 [get_ports {seg[1]}]
+set_property PACKAGE_PIN H5 [get_ports {seg[2]}]
+set_property PACKAGE_PIN H4 [get_ports {seg[3]}]
+set_property PACKAGE_PIN J5 [get_ports {seg[4]}]
+set_property PACKAGE_PIN J4 [get_ports {seg[5]}]
+set_property PACKAGE_PIN H2 [get_ports {seg[6]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seg[*]}]
+# DIGIT ENABLE
+set_property PACKAGE_PIN F2 [get_ports {digit[0]}]
+set_property PACKAGE_PIN E1 [get_ports {digit[1]}]
+set_property PACKAGE_PIN G5 [get_ports {digit[2]}]
+set_property PACKAGE_PIN G4 [get_ports {digit[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {digit[*]}]
